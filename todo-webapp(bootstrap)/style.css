@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 5px 20px;
+}
+body{
+    background-image: linear-gradient(100deg,rgb(3, 226, 255),white);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    background-image: linear-gradient(100deg,rgba(3, 226, 255,0.6),aliceblue);
+}
+.add-list,
+.ul-list{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.del-btn
+{
+    background-color: rgb(255, 0, 21);
+    padding: 5px 5px;
+    border-radius: 6px;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    width: 80px;
+    height: 50px;
+}
+.del-btn:hover{
+    background-color: rgba(255, 0, 21,0.8);
+}
+.list
+{
+    list-style: none;  
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 80vw;
+    height: 50px;
+    
+}
+#list-div{
+    display: flex;
+    column-gap: 8px;
+}
+@media screen and (max-width: 800px){
+    .list
+{
+    list-style: none;  
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 80vw;
+    height: 50px;
+    overflow-x: scroll;
+}
+#main-input{
+    width: 80vw;
+}
+.del-btn
+{
+    background-color: rgb(255, 0, 21);
+    padding: 5px 5px;
+    border-radius: 6px;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    width: 60px;
+    height: 50px;
+    font-size: 10px;
+}
+.del-btn:hover{
+    background-color: rgba(255, 0, 21,0.8);
+}
+}
+@media screen and (max-width: 500px){
+    .list{
+    list-style: none;  
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 1000px;
+    height: 50px;
+    overflow-x: scroll;
+}
+#main-input{
+    width: 80vw;
+}
+}
