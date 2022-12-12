@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+*{
+    margin: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+body{
+    background-image: linear-gradient(360deg,rgb(15, 153, 245),rgba(255, 255, 255, 0.993));
+}
+.navbar{
+    background-image: linear-gradient(360deg,rgb(229, 244, 255),rgba(255, 255, 255, 0.993));
+
+}
+#search-input{
+    opacity: 0.7;
+    max-width: 500px;
+}
+#input-form{
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 5px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    max-width: 40vw;
+    opacity: 0.7;
+    font-weight: bold;
+    margin-bottom: 26%;
+
+}
+.weather-body{
+    margin-left: 25vw;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+ul li{
+    align-items: center;
+    width: 25vw;
+    font-style: normal;
+    margin-top: 6px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(100deg,rgb(0, 153, 255),rgb(197, 239, 245));
+}
