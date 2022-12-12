@@ -28,14 +28,12 @@ body{
     opacity: 0.7;
     font-weight: bold;
     margin-bottom: 26%;
-
 }
 .weather-body{
     margin-left: 25vw;
     padding: 30px;
     justify-content: center;
     align-items: center;
-    opacity: 0.8;
 }
 ul li{
     align-items: center;
