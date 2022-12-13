@@ -1,2 +1,3 @@
 # vighneshadelkar.github.io
-github pages repo
+<br>
+You can see all my projects by opening vighneshadelkar.github.io on the browser
