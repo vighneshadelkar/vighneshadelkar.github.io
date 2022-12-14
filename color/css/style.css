@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Titillium+Web:wght@200&display=swap');
+
+.navbar{
+    font-weight: bold;
+    background-color: #e3ffff;
+}
+
+.level{
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.content{
+    position: fixed;
+    border-radius: 20px;
+    border-width: 10px;
+}
